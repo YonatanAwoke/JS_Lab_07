@@ -1,6 +1,6 @@
 // UI Vars 
 const postDiv3 = document.getElementById('thePosts');
-const spinner_ui = document.getElementById('post')
+const images_spin = document.getElementById('spinner')
 postDiv3.style.display = 'none';
 //Load Every thing ....
 document.addEventListener("DOMContentLoaded", () => {
@@ -97,6 +97,6 @@ function loadDataNew() {
 }
 
 setTimeout(() => {
-    spinner_ui.style.display = 'none';
+    images_spin.style.display = 'none';
     postDiv3.style.display = 'block';
 }, 2000);
