@@ -74,3 +74,8 @@
     z-index: 12;
     border-radius: 6px 6px 0 0;
 }
+.gallery_head{
+    margin-left: 700px;
+    color: rgb(250, 171, 0);
+    font-weight: bolder;
+}
