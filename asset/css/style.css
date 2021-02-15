@@ -18,7 +18,7 @@
     height: 250px;
     display: flex;
     align-items: center;
-    background:url(../images/clock.png);
+    background:url(../images/b47ad74cee7836900a11927cd9876181.jpg);
     background-size: cover;
     justify-content: center;
     background-color: rgb(0, 9, 12);
@@ -26,28 +26,28 @@
     border:4px solid rgb(240, 4, 4);  
 }
 
-.hour,.min,.sec {
+.per_hour,.per_min,.per_sec {
     position: absolute;
 }
-.hour, .hr {
+.per_hour, .hor {
     width: 160px;
     height: 160px;
 }
-.min,.mn{
+.per_min,.min{
     width: 190px;
     height: 190px;
 }
-.sec,.sc {
+.per_sec,.sec {
     width: 230px;
     height: 230px;
 }
-.hr,.mn,.sc{
+.hor,.min,.sec{
     display: flex;
     justify-content: center;
     position: absolute;
     border-radius: 50%;
 }
-.hr::before {
+.hor::before {
     content: '';
     position: absolute;
     width: 8px;
@@ -56,16 +56,16 @@
     z-index: 10;
     border-radius: 6px 6px 0 0;
 }
-.mn::before {
+.min::before {
     content: '';
     position: absolute;
     width: 4px;
     height: 90px;
-    background:#d8db07;
+    background:#0904f8;
     z-index: 11;
     border-radius: 6px 6px 0 0;
 }
-.sc::before {
+.sec::before {
     content: '';
     position: absolute;
     width: 2px;
